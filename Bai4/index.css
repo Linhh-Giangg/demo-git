@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg-body.png');
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.header{
+    background-image: url('bg-header.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 700px;
+    height: 140px;
+    left: 450px;
+}
+h1{
+    color: #b2b3af;
+    position: absolute;
+    top: 45px;
+}
+.menu{
+    background-image: url('bg-menu.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 140px;
+    width: 700px;
+    height: 35px;
+    left: 450px;
+}
+.menu ul li{
+    list-style-type: none;
+    color: white;
+    float: left;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.menu .Link1, .Link2, .Link3, .Link4, .Link5{
+    background-image: url('bg-menu.png');
+    top: 140px;
+    height: 34px;
+    font-size: 15px;
+}
+.menu ul li:hover{
+    background-image: url('bg-menu-hover.png');
+}
+.ad{
+    width: 75%;
+    left: 450px;
+    float: left;
+}
+.ad-top{
+    background-image: url('bg-ad-top.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 175px;
+    width: 480px;
+    height: 72px;
+    left: 450px;
+}
+.bg{
+    position: absolute;
+    top: 175px;
+    width: 180px;
+    height: 130px;
+    left: 950px;
+    background-color: rgb(236, 236, 236);
+}
+.bg-feed{
+    background-image: url('bg-feed.gif');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 152px;
+    height: 25px;
+    left: 16px;
+}
+.list ul li{
+    list-style-type: none;
+    padding-left: 50px;
+}
+hr{
+    width: 100%;
+}
+.list{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+.button-feed{
+    background-image: url('button-feed.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 25px;
+    left: 24px;
+}
+.button-feed:hover{
+    background-image: url('button-feed.png');
+    background-position: center bottom;
+}
+.end{
+    background-image: url('bg-sidebar-bottom.gif');
+    height: 20px;
+    width: 180px;   
+}
+.text{
+    position: absolute;
+    width: 490px;
+    height: 800px;
+    top: 250px;
+    left: 450px;
+}
+.text h1{
+    position: absolute;
+    color: #bdca5c;
+    top: 0;
+}
+.text span{
+    color: #d1cee8;
+    position: absolute;
+    top: 30px;
+}
+.text p{
+    position: absolute;
+    width: 480px;
+    top: 80px;
+}
+.comment{
+    position: absolute;
+    color: #d1cee8;
+    font-size: 12px;
+    top: 310px;
+}
+.footer{
+    background-image: url('bg-footer.jpg');
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 700px;
+    bottom: 0; 
+    width: 700px;
+    left: 450px;
+}
+

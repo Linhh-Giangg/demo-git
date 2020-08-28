@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 80px;
+    padding-left: 500px;
+}
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(252, 44, 44);
+}
+.header{
+    position: relative;
+    border: 3px solid gold;
+}
+.header h1{
+    color: gold;
+    padding: 10px;
+    width: 200px;
+}
+.header .search{
+    position: absolute;
+    top: 15px;
+    left: 750px;
+    width: 200px;
+    height: 25px;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+.content{
+    width: 1000px;
+    height: 740px;
+    float: left;
+    position: absolute;
+    border: 3px solid gold;
+    border-top: none;
+}
+.sidebar{
+    position: absolute;
+    width: 20%;
+    height: 740px; 
+    border-right: 3px solid gold;
+}
+.widgets-category, .item-products{
+    border-bottom: 3px solid gold;
+}
+.category, .top-products{
+    border-bottom: 3px solid gold;
+    height: 30px;
+    text-align: center;
+}
+.item-catelogy, .item-products{
+    padding-top: 10px;
+    height: 120px;
+}
+
+.item-catelogy ul li, .item-products ul li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.main-content{
+    position: absolute;
+    width: 60%;
+    height: 740px; 
+    border-right: 3px solid gold;
+    left: 200px;
+}
+.title{
+    position: relative;
+    width: 592px;
+    height: 250px;
+}
+.Top-Products{
+    position: absolute;
+    top: 3px;
+    padding-left: 0;
+    color: gold;
+}
+.title .picture1{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 30px;
+    top: 40px;
+}
+.title .picture2{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 220px;
+    top: 40px;
+}
+.title .picture3{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 410px;
+    top: 40px;
+}
+.product-block{
+    position: absolute;
+    width: 592px;
+    height: 250px;
+    top: 280px;
+}
+.product-block .picture1{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 30px;
+}
+.product-block .picture2{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 220px;
+}
+.product-block .picture3{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    border: 3px solid gold;
+    left: 410px;
+}
+.pagination{
+    position: relative;
+    top: 250px;
+    left: 350px;
+    width: 206px;
+    height: 40px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+.pagination ul li{
+    list-style-type: none;
+    float: left;
+    line-height: 1.8;
+    width: 40px;
+    height: 36px;
+    border-right: 3px solid gold;
+    font-size: 20px;
+}
+.banner{
+    position: absolute;
+    width: 20%;
+    height: 740px; 
+    left: 794px;
+}
